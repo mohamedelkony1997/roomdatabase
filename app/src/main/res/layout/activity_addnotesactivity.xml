@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addnotesactivity"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_marginTop="24dp"
+        android:lines="1"
+        android:hint="@string/title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+        android:layout_marginTop="24dp"
+        android:hint="@string/content"
+        android:lines="6"
+        android:maxLines="6"
+        android:gravity="start"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datatime"
+        android:layout_marginTop="24dp"
+        android:hint="@string/datatime"
+        android:maxLines="1"
+        android:inputType="datetime"
+        android:padding="12dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:id="@+id/add"
+        android:background="@color/colorPrimary"
+
+        />
+
+</LinearLayout>

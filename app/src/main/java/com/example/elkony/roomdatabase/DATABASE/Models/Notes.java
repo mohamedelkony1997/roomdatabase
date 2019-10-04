@@ -2,6 +2,7 @@ package com.example.elkony.roomdatabase.DATABASE.Models;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
+import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 @Entity
@@ -18,6 +19,7 @@ public class Notes {
     public Notes() {
     }
 
+    @Ignore
     public Notes(String title, String content, String datatime) {
         this.title = title;
         this.content = content;

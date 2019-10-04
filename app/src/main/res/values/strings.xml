@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">roomdatabase</string>
+    <string name="title">title</string>
+    <string name="content">content</string>
+    <string name="datatime">data</string>
+    <string name="add">add</string>
 </resources>
